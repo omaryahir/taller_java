@@ -8,7 +8,6 @@ package controller;
 import com.opensymphony.xwork2.ModelDriven;
 import java.util.ArrayList;
 import model.dao.ClienteDAO;
-import model.dao.ClienteDAOImpl;
 import model.entities.Cliente;
 
 /**
@@ -28,7 +27,7 @@ public class ClienteController implements ModelDriven<Cliente> {
 	}
 
 	public ClienteController(){
-		clienteDAO = new ClienteDAOImpl();
+		clienteDAO = new ClienteDAO();
 	}
 	
     	public String agregarInicio(){

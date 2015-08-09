@@ -7,15 +7,41 @@ package model.dao;
 
 import java.util.ArrayList;
 import model.entities.Cliente;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 /**
  *
  * @author omaryahir
  */
-public interface ClienteDAO {
+public class ClienteDAO {
 
-	public boolean agregar(Cliente cliente);
-	public ArrayList<Cliente> listar();
-	
+	Transaction transaction;
+	Session session;
+
+	public boolean agregar(Cliente cliente) {
+		try{
+			session = HibernateUtil.getSessionFactory().getCurrentSession();
+			transaction = session.beginTransaction();
+			session.save(cliente);
+			transaction.commit();
+			return true;
+		} catch(Exception e) {
+			if(transaction!=null){
+				transaction.rollback();
+			}
+			return false;
+		}
+	}
+
+	public ArrayList<Cliente> listar() {
+		try{
+			session = HibernateUtil.getSessionFactory().getCurrentSession();
+			transaction = session.beginTransaction();
+			return (ArrayList<Cliente>)session.createQuery("from Cliente").list();
+		} catch (Exception e) {
+			return null;
+		}
+	}
 	
 }
