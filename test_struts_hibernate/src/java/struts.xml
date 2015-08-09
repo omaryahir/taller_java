@@ -12,13 +12,10 @@
        <action name="agregarInicio" class="controller.ClienteController" method="agregarInicio"> 
             <result name="exito">/Vista/AgregarCliente.jsp</result>
        </action>
-       <action name="listarInicio" class="controller.ClienteController" method="listarInicio"> 
-            <result name="exito">/Vista/ListarClientes.jsp</result>
-       </action>
        <action name="agregarCliente" class="controller.ClienteController" method="agregar"> 
             <result name="fin">/Vista/AgregarCliente.jsp</result>
        </action>    
-       <action name="listarClientes" class="controller.ClienteController" method="listar"> 
+       <action name="listarInicio" class="controller.ClienteController" method="listar"> 
             <result name="fin">/Vista/ListarClientes.jsp</result>
        </action>            
     </package>
