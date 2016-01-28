@@ -3,7 +3,7 @@
 - Download JDK and JRE
 
 
-Progress: Video:5 Minute: 0
+Progress: Video:5 Minute: 7:20
 
 -----
 Philosophy:
@@ -49,6 +49,18 @@ Java ME: Micro Edition ------ Before android was for cell phones like blackberry
 ----
 
 First Part: Java Standard Edition
+
+Components:
+JDK: Java Development Kit ------ Kit of tools, classes to develop.
+JRE: Java Runtime Environment -- Virtual machine that traduce the .class files.
+
+To verify if is installed:
+$ java
+$ java -version
+$ javac
+
+If in the last sentences you saw command not found and you are in windows
+is probably because you have to configurate the environment variables.
 
 
 
