@@ -62,8 +62,7 @@ $ javac
 If in the last sentences you saw command not found and you are in windows
 is probably because you have to configurate the environment variables.
 
-
-
+You have to check where the java was installed (could be in C:\Program Files\Java\jdk1.7.0_51\bin). Is posible that in windows 10 is automatically.
 
 
 
