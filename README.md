@@ -8,7 +8,7 @@ Progress: Video:4 Minute: 2:15
 -----
 Philosophy:
 - Based on C / C++
-- POO
+- POO (Reutilization)
 - Good practices on coding
 - Developing more fast than C++
 
@@ -16,6 +16,8 @@ Why is important:
 - Most used language programming
 - Who uses ?
     Google / Amazon / Financial companies
+- There are carrers
+- Is used for android
 
 
 
