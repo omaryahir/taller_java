@@ -3,14 +3,20 @@
 - Download JDK and JRE
 
 
------
-Philosophy
+Progress: Video:4 Minute: 2:15
 
-Notes:
+-----
+Philosophy:
 - Based on C / C++
 - POO
 - Good practices on coding
 - Developing more fast than C++
+
+Why is important:
+- Most used language programming
+- Who uses ?
+    Google / Amazon / Financial companies
+
 
 
 
