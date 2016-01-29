@@ -3,7 +3,7 @@
 - Download JDK and JRE
 
 
-Progress: Video:6 Minute: 0
+Progress: Video:7 Minute: 6:31
 
 -----
 Philosophy:
@@ -85,6 +85,17 @@ Why main() ???
 The main function is the entry point of a Java application.
 
 The word main is a reserve word for Java language.
+
+----
+
+IDE -- Integrated Development Environment
+
+- Editor
+- Compilator
+- Debuger
+- IGU generator
+
+
 
 
 
