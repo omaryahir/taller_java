@@ -3,7 +3,7 @@
 - Download JDK and JRE
 
 
-Progress: Video:5 Minute: 7:20
+Progress: Video:6 Minute: 0
 
 -----
 Philosophy:
@@ -62,7 +62,30 @@ $ javac
 If in the last sentences you saw command not found and you are in windows
 is probably because you have to configurate the environment variables.
 
-You have to check where the java was installed (could be in C:\Program Files\Java\jdk1.7.0_51\bin). Is posible that in windows 10 is automatically.
+You have to check where the java was installed 
+(could be in C:\Program Files\Java\jdk...\bin). Is posible that in windows 10 is automatically.
+
+Programming Phases:
+1. Generate Java Sources (make files .java)
+
+2. Using javac to generate .class:
+    $ javac MyFile.java
+   This generate the *byte code* (.class).
+   If you check the .class file you will see the first two words:
+   cafe babe --- Some people asume that to the logo of cup of cafe
+    
+3. After that use JVM:
+    $ java MyFile
+   Note: Without extensions.
+
+----
+
+Why main() ???
+
+The main function is the entry point of a Java application.
+
+The word main is a reserve word for Java language.
+
 
 
 
