@@ -88,12 +88,22 @@ The word main is a reserve word for Java language.
 
 ----
 
-IDE -- Integrated Development Environment
+IDE -- Integrated Development Environment:
 
 - Editor
 - Compilator
 - Debuger
 - IGU generator
+
+----
+
+Package:
+
+- A package is a system folder.
+- Is similar to domains in the name:
+    com.company.projectname
+  Example:
+    com.omaryahir.miproyecto
 
 
 
