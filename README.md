@@ -3,7 +3,7 @@
 - Download JDK and JRE
 
 
-Progress: Video:7 Minute: 6:31
+Progress: Video:10 Minute: 0
 
 -----
 Philosophy:
@@ -105,15 +105,10 @@ Package:
   Example:
     com.omaryahir.miproyecto
 
-
-
-
-
-
-
-
-
-
-
+Some datatypes:
+- byte   -128 - 127
+- short  -32,768 - 32,767 (2 bytes)
+- int    -2,147,483,648 - 2,147,483,647 (4 bytes)
+- long   -9,223,372,038,854,775,808 - 9,223,372,038,854,775,807
 
 
