@@ -48,6 +48,13 @@ Java ME: Micro Edition ------ Before android was for cell phones like blackberry
 
 ----
 
+Oracle University:
+
+https://education.oracle.com/
+[Certifications](https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=653&get_params=p_id:212#tabs-2-2 "Certifications")
+
+----
+
 First Part: Java Standard Edition
 
 Components:
