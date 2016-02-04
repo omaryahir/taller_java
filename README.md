@@ -3,7 +3,7 @@
 - Download JDK and JRE
 
 
-Progress: Video:10 Minute: 24:40
+Progress: Video:10 Minute: 34:00
 
 -----
 Philosophy:
