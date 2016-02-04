@@ -3,7 +3,7 @@
 - Download JDK and JRE
 
 
-Progress: Video:10 Minute: 34:00
+Progress: Video:11 Minute: 
 
 -----
 Philosophy:
@@ -118,4 +118,6 @@ Some datatypes:
 - int    -2,147,483,648 - 2,147,483,647 (4 bytes)
 - long   -9,223,372,038,854,775,808 - 9,223,372,038,854,775,807
 
+----
+Eclipse tiene una perspectiva en modo debug que permite colocar breakpoints y validar variables.
 
