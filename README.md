@@ -3,7 +3,7 @@
 - Download JDK and JRE
 
 
-Progress: Video:11 Minute: 
+Progress: Video:12 Minute:
 
 -----
 Philosophy:
@@ -113,10 +113,14 @@ Package:
     com.omaryahir.miproyecto
 
 Some datatypes:
-- byte   -128 - 127
-- short  -32,768 - 32,767 (2 bytes)
-- int    -2,147,483,648 - 2,147,483,647 (4 bytes)
-- long   -9,223,372,038,854,775,808 - 9,223,372,038,854,775,807
+- byte    1 byte  | -128 - 127
+- short   2 bytes | -32,768 - 32,767
+- int     4 bytes | -2,147,483,648 - 2,147,483,647
+- long    8 bytes | -9,223,372,038,854,775,808 - 9,223,372,038,854,775,807
+- float   4 bytes | 1.40129... - 3.4028... 
+- double  8 bytes | 4.9406...  - 1.79769...
+- char    2 bytes | Rango unicode
+- boolean 1 bit   | Rango true o false 
 
 ----
 Eclipse tiene una perspectiva en modo debug que permite colocar breakpoints y validar variables.

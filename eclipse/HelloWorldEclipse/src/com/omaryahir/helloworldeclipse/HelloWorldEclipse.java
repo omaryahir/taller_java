@@ -21,7 +21,37 @@ public class HelloWorldEclipse {
 		
 		System.out.println(String.valueOf(suma(2,2)));
 		
+		
+		final byte a = 1; /*** constante ***/
+		final byte b = 1; /*** constante ***/	
+		byte result = a + b;
+		System.out.println(String.valueOf(result));
+	
 			
+		double d = 1.5;
+		double e = 1.5;
+		double result_double = d + e;
+		
+		System.out.println(String.valueOf(result_double));
+		
+		float f = 1.5F;
+		float g = 1.5F;
+		float result_float = f + g;
+		System.out.println(result_float);
+		
+		long h = 1000000L;
+		long i = 1000000L;
+		long result_long = h + i;
+		System.out.println(String.valueOf(result_long));
+		
+		char character = 'c'; // comillas simples
+		System.out.println(character);
+		
+		boolean resp = false;
+		System.out.println(String.valueOf(resp));
+		
+		
+		
 	}
 
 	/**
